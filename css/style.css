@@ -1,0 +1,49 @@
+* {
+  text-align: center;
+}
+#container {
+  height: 600px;
+  width: 600px;
+  background-color: #DDAFB2;
+  border: 2px solid #3D1E1F;
+  margin: 0 25%;
+  position: absolute;
+}
+
+.charField{
+  width: 65px;
+  height: 63px;
+  display: inline-block;
+  background-color: red;
+}
+
+#play {
+
+}
+
+#popBox {
+  background-color: #89EED4;
+  border: 2px solid #2C6758;
+  height: 70px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
+#sideList {
+  height: 600px;
+  width: 100px;
+  background-color: #89EED4;
+  border: 2px solid #2C6758;
+  margin-left: 120px;
+
+}
+
+ul li {
+  color: white;
+  text-align: center;
+}
