@@ -1,7 +1,22 @@
+// wordsearch = new Wordsearch();
+//
+// function makeGrid(){
+//   wordsearch.dispTest();
+//     for (i= 0; i < 10; i++){
+//     this.testLetCol = $('<div>').addClass('row');
+//       for (j = 0; j < 10; j++){
+//     this.testLetRow = $('<div>').addClass('charField').attr('id', i + '-' + j);
+//       }
+//   this.testLetCol.append(this.testLetRow);
+//     }
+//     $('#container').append(this.testLetCol);
+// }
+
+
 function makeGrid(){
-  for (var i = 0; i < 9; i++) {
+  for (var i = 0; i < 10; i++) {
     var row = $('<div>').addClass('row');
-    for (var j = 0; j < 9; j++) {
+    for (var j = 0; j < 10; j++) {
       var field = $('<div>').addClass('charField').attr('id', i + '-' + j);
       row.append(field);
     }
@@ -14,7 +29,6 @@ function makeGrid(){
 
 
 $(document).ready(function() {
-
 
 
 var wordsearch;
