@@ -1,3 +1,6 @@
+///NOT IN USE - REPLACED WITH WORDSEARCH2.JS ///
+
+
 // Create game objects:
 
 var T = true , F = false;
